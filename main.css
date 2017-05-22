@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper {
+    width: 80%;
+    margin: 3em auto;
+}
+#popup {
+    display: none;
+    position: fixed;
+    width: 50%;
+    height: 10em;
+    line-height: 10em;
+    vertical-align: middle;
+    top: 2em;
+    left: 2em;
+    background: black;
+    color: #fff;
+    text-align: center;
+}
+#out {
+    padding: 20px;
+    color: blue;
+}
+.re-popup {
+    padding-top: 30px;
+    color: blue;
+}
